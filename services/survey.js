@@ -55,16 +55,11 @@ module.exports = class Survey {
         break;
 
       case "CSAT_BAD":
-        response = Response.genQuickReply(i18n.__("survey.negative"), [
-          {
-            title: i18n.__("menu.help"),
-            payload: "CARE_HELP"
-          }
-        ]);
+        response = Response.genText(i18n.__("survey.negative"));
         break;
 
       case "CSAT_SUGGESTION":
-        response = Response.genText(i18n.__("survey.suggestion"));
+        response = Response.genText(i18n.__("survey.question"));
         break;
     }
 

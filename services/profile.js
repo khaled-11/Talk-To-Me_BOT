@@ -37,44 +37,6 @@ module.exports = class Profile {
     GraphAPi.callMessengerProfileAPI(profilePayload);
   }
 
-  setPersonas() {
-    let newPersonas = config.newPersonas;
-
-    GraphAPi.getPersonaAPI()
-      .then(personas => {
-        for (let persona of personas) {
-          config.pushPersona({
-            name: persona.name,
-            id: persona.id
-          });
-        }
-        console.log(config.personas);
-        return config.personas;
-      })
-      .then(existingPersonas => {
-        for (let persona of newPersonas) {
-          if (!(persona.name in existingPersonas)) {
-            GraphAPi.postPersonaAPI(persona.name, persona.picture)
-              .then(personaId => {
-                config.pushPersona({
-                  name: persona.name,
-                  id: personaId
-                });
-                console.log(config.personas);
-              })
-              .catch(error => {
-                console.log("Creation failed:", error);
-              });
-          } else {
-            console.log("Persona already exists for name:", persona.name);
-          }
-        }
-      })
-      .catch(error => {
-        console.log("Creation failed:", error);
-      });
-  }
-
   setGetStarted() {
     let getStartedPayload = this.getGetStarted();
     GraphAPi.callMessengerProfileAPI(getStartedPayload);
@@ -143,6 +105,7 @@ module.exports = class Profile {
     return localizedGreeting;
   }
 
+
   getMenuItems(locale) {
     let param = locale === "en_US" ? "default" : locale;
 
@@ -153,14 +116,7 @@ module.exports = class Profile {
       composer_input_disabled: false,
       call_to_actions: [
         {
-          title: i18n.__("menu.support"),
-          type: "nested",
           call_to_actions: [
-            {
-              title: i18n.__("menu.order"),
-              type: "postback",
-              payload: "TRACK_ORDER"
-            },
             {
               title: i18n.__("menu.help"),
               type: "postback",
@@ -172,12 +128,6 @@ module.exports = class Profile {
           title: i18n.__("menu.suggestion"),
           type: "postback",
           payload: "CURATION"
-        },
-        {
-          type: "web_url",
-          title: i18n.__("menu.shop"),
-          url: config.shopUrl,
-          webview_height_ratio: "full"
         }
       ]
     };
@@ -185,6 +135,7 @@ module.exports = class Profile {
     console.log(localizedMenu);
     return localizedMenu;
   }
+
 
   getWhitelistedDomains() {
     let whitelistedDomains = {

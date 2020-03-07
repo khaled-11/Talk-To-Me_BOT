@@ -11,7 +11,7 @@
 "use strict";
 
 const Curation = require("./curation"),
-  Order = require("./order"),
+  //Order = require("./order"),
   Response = require("./response"),
   Care = require("./care"),
   Survey = require("./survey"),
@@ -85,8 +85,6 @@ module.exports = class Receive {
       message.includes("start over")
     ) {
       response = Response.genNuxMessage(this.user);
-    } else if (Number(message)) {
-      response = Order.handlePayload("ORDER_NUMBER");
     } else if (message.includes("#")) {
       response = Survey.handlePayload("CSAT_SUGGESTION");
     } else if (message.includes(i18n.__("care.help").toLowerCase())) {

@@ -190,7 +190,6 @@ app.get("/profile", (req, res) => {
         res.write(`<p>Set Messenger Profile of Page ${config.pageId}</p>`);
       }
       if (mode == "personas" || mode == "all") {
-        Profile.setPersonas();
         res.write(`<p>Set Personas for ${config.appId}</p>`);
         res.write(
           "<p>To persist the personas, add the following variables \

@@ -1,74 +1,72 @@
 {
-  "profile": {
-    "greeting": "Herzlich willkommen bei Original Coast Clothing, {{user_first_name}}! Klicke auf „Los geht’s“, um unser Beispiel für automatisierte Nachrichten zu entdecken. Wenn du ein ähnliches Kundenerlebnis anbieten möchtest, besuche die Seite https://fb.me/get-sample-oc."
-  },
-  "menu": {
-    "support": "Kundensupport",
-    "order": "Updates zur Bestellung",
-    "help": "Kontakt zu Mitarbeiter",
-    "suggestion": "Outfit-Vorschläge",
-    "shop": "Jetzt einkaufen",
-    "start_over": "Neu beginnen"
-  },
-  "get_started": {
-    "welcome": "Hallo {{userFirstName}}! Herzlich willkommen bei Original Coast Clothing! Hier findest du Outfits für jeden Anlass.",
-    "guidance": "Du kannst jederzeit über das unten stehende Menü durch die Features navigieren.",
-    "help": "Wie können wir dir heute behilflich sein?"
-  },
-  "leadgen": {
-    "promo": "Hallo {{userFirstName}}! Ein tolles Outfit zu finden, ist jetzt noch einfacher.",
-    "title": "50-%-Gutschein",
-    "subtitle": "Hier ist dein Gutschein",
-    "apply": "Rabatt anwenden",
-    "coupon": "Dein Gutschein wurde zu diesem Nachrichtenverlauf hinzugefügt. Entdecke jetzt unsere heruntergesetzte Sommerkollektion!"
-  },
-  "curation": {
-    "prompt": "Suchst du ein Outfit für dich selbst oder für jemand anderen?",
-    "occasion": "Super! Los geht’s! Geht es um einen bestimmten Anlass?",
-    "price": "Wie viel möchtest du ausgeben?",
-    "me": "Für mich!",
-    "someone": "Jemand anders",
-    "work": "Arbeit",
-    "dinner": "Abendessen",
-    "party": "Party",
-    "sales": "Mit Vertrieb sprechen",
-    "shop": "Diesen Look einkaufen",
-    "title": "Sommerkollektion 2019",
-    "subtitle": "Empfohlenes Outfit",
-    "show": "Anderer Look"
-  },
-  "order": {
-    "prompt": "Wir helfen dir gerne weiter. Triff eine Auswahl:",
-    "search": "Nach Bestellnummer suchen",
-    "account": "Mein Konto verknüpfen",
-    "dialog": "Dialog zur Kontoverknüpfung",
-    "searching": "Deine letzte Bestellung wird gesucht ...",
-    "number": "Gerne, bitte gib deine Bestellnummer ein",
-    "status": "Deine Bestellung ist unterwegs und wird voraussichtlich innerhalb der nächsten drei Tage bei dir eintreffen."
-  },
-  "care": {
-    "prompt": "Bitte verrate mir, um was es geht, damit ich dich mit dem richtigen Mitarbeiter verbinden kann.",
-    "order": "Frage zur Bestellung",
-    "billing": "Problem mit der Zahlung",
-    "other": "Sonstiges",
-    "issue": "Hallo {{userFirstName}}, mein Name ist {{agentFirstName}}. Ich werde dich bei Fragen zu {{topic}} unterstützen.",
-    "default": "Hallo {{userFirstName}}, mein Name ist {{agentFirstName}}. Ich bin heute für dich da. Wie kann ich dir helfen?",
-    "style": "Hallo {{userFirstName}}, mein Name ist {{agentFirstName}}. Ich werde deine Fragen zu unseren Sommerstyles beantworten.",
-    "end": "Das war die Demo. Nutze die Stärken der Messenger-Plattform für dein Unternehmen. Unter https://fb.me/get-sample-oc erfährst du, wie du ein ähnliches Kundenerlebnis anbieten kannst.",
-    "help": "Hilfe"
-  },
-  "survey": {
-    "prompt": "Hallo, ich möchte dich kurz zu deiner kürzlichen Interaktion mit {{agentFirstName}} befragen.",
-    "positive": "Vielen Dank für dein Feedback!",
-    "neutral": "Vielen Dank für dein Feedback! Wenn du weitere Ideen hast, wie wir uns verbessern können, hinterlasse uns gerne einen Kommentar mit dem Hashtag #vorschlag.",
-    "negative": "Vielen Dank für deine Nachricht! Es tut uns leid, das zu hören! Wenn wir etwas tun können, um das Problem zu lösen, lass es uns gerne wissen!",
-    "suggestion": "Dein Vorschlag wurde zur Prüfung durch das Team erfasst. Wenn du sofort Unterstützung benötigst, kommentiere mit „Hilfe“."
-  },
-  "chat_plugin": {
-    "prompt": "Bedankt voor het bezoeken van onze winkel. Zorg ervoor dat je alle geweldige stijlen bekijkt die we in de zomer hebben."
-  },
-  "fallback": {
-    "any": "Es tut mir leid, ich kenne „{{message}}“ nicht.",
-    "attachment": "Vielen Dank für diesen Anhang! Wir können dich zur Prüfung mit einem Mitarbeiter verbinden, oder du kannst von vorne beginnen."
-  }
+	"profile": {
+		"greeting": "Welcome to Talk to Me center {{user_first_name}}! We are so excited to chat with you!"
+	},
+	"menu": {
+		"help": "Talk to someone",
+		"suggestion": "Get positive energy",
+		"start_over": "Start over"
+	},
+	"get_started": {
+		"welcome": "Hi {{userFirstName}}! Do you know that today will go and never comes back? Every {{userGender}} should make the most of it!",
+		"guidance": "One positive though a day can change it to a better and a more productive day!",
+		"help": "What we can do to make your day a better day?"
+	},
+	"leadgen": {
+		"promo": "Hi {{userFirstName}}, finding great outfits is now easier and more convenient.",
+		"title": "50% Coupon",
+		"subtitle": "Here is your coupon",
+		"apply": "Apply discount",
+		"coupon": "Added your coupon to this thread, you can now check out the discounted summer collection"
+	},
+	"curation": {
+		"prompt": "Are you looking for an outfit for yourself or someone else?",
+		"occasion": "Great! Let's get started. First, is there an occasion in mind?",
+		"price": "How much are you looking to spend?",
+		"me": "For me!",
+		"someone": "Someone else",
+		"work": "Work",
+		"dinner": "Dinner",
+		"party": "Party",
+		"sales": "Talk to sales",
+		"shop": "Shop this look",
+		"title": "Summer collection 2019",
+		"subtitle": "Featured outfit",
+		"show": "Another look"
+	},
+	"order": {
+		"prompt": "We'll be happy to help you. Select from the following",
+		"search": "Search by order number",
+		"account": "Link my Account",
+		"dialog": "Account linking dialog",
+		"searching": "Searching for your last order...",
+		"number": "Sure, please write the order number",
+		"status": "Your order is on it’s way, expect to have it in 3 days."
+	},
+	"care": {
+		"prompt": "To connect you with the right team please let me know what this is about?",
+		"order": "Need Advice",
+		"billing": "Donations",
+		"other": "Others",
+		"issue": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"default": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"style": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"end": "I am so happy to assist you today. Together we will make the world a better place!",
+		"help": "Help"
+	},
+	"survey": {
+		"prompt": "First, how do you feel today?",
+		"positive": "Great, being positive and happy is awesome! Please write #Question followed by your question and we will get back to you shortly",
+		"negative": "Why are you sad? The world is so beautiful and wants you to be happy. Please write #Question followed by your question and we will get back to you shortly",
+		"suggestion": "Your suggestion has been recorded for future review by the team. If this is something we need to get back to you right now just comment \"help\"",
+		"neutral": "Sometimes we might face some challenges, but these make us more stronger in the future. Please write #Question followed by your question and we will get back to you shortly",
+		"question": "We recieved your question. We will get back to you shortly. You are very important to us!"
+	},
+	"chat_plugin": {
+		"prompt": "Thanks for visiting our website, be sure to visit us everyday to get some positives."
+	},
+	"fallback": {
+		"any": "Sorry, but I cannot recognize \"{{message}}\".",
+		"attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
+	}
 }
