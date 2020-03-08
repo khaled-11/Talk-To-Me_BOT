@@ -1,40 +1,41 @@
 
 	<head>
 
-
-		
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>HEART DEMO</title>
+
+<title>Talk To Me | Gift</title>
+
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="/#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
-    <a href="/#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Donate</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <a href="/#donation" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Donate</a>
     <a href="/#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="/story" class="w3-bar-item w3-button">Story</a>
         <a href="/quotes" class="w3-bar-item w3-button">Quotes</a>
-        <a href="/hearts" class="w3-bar-item w3-button">Script</a>
+        <a href="/hearts" class="w3-bar-item w3-button">Gift</a>
       </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+  <a href="/#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="/#donation" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Donate</a>
+  <a href="/#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Conatct</a>
+  <a href="/story" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Story</a>
+  <a href="/quotes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Quotes</a>
+  <a href="/hearts" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gift</a>
 </div>
 
 
@@ -223,6 +224,17 @@ $(document).ready(function(){
   });
 });
 	</script>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 	</head>
 
 
@@ -237,9 +249,9 @@ $(document).ready(function(){
     </span>
     <div class="endtext">
       <span class="close" title="Restart"><i class="fa fa-times"></i></span>  
-      <h1>I love you baby</h1>
-      <h2>Be my valentine?</h2>
-      <h3>~Skippy</h3>
+      <h1>You are very important!</h1>
+      <h2>We are so happy to see you today :)</h2>
+      <h3>~Talk to me</h3>
     </div>
   </div>
 </div>
