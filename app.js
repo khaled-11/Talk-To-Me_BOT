@@ -44,10 +44,17 @@ app.set("view engine", "ejs");
 app.get("/", function(_req, res) {
   res.render("index");
 });
-// Respond with index file when a GET request is made to the homepage
-app.get("/tt", function(_req, res) {
-  res.render("ttindex");
+// Respond with Page file when a GET request is made to other pages
+app.get("/hearts", function(_req, res) {
+  res.render("hearts");
 });
+app.get("/quotes", function(_req, res) {
+  res.render("quotes");
+});
+app.get("/story", function(_req, res) {
+  res.render("story");
+});
+
 
 // Adds support for GET requests to our webhook
 app.get("/webhook", (req, res) => {
