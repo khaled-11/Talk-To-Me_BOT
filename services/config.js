@@ -58,32 +58,32 @@ module.exports = {
   },
 
 
-  get personaSales() {
-    let id = this.personas["Khaled"] || process.env.PERSONA_SALES;
+  get personaInner() {
+    let id = this.personas["Khaled"] || process.env.PERSONA_INNER;
     return {
       name: "Khaled",
       id: id
     };
   },
 
-  get personaBilling() {
-    let id = this.personas["Khaled"] || process.env.PERSONA_BILLING;
+  get personaDonations() {
+    let id = this.personas["Khaled"] || process.env.PERSONA_DONATIONS;
     return {
       name: "Khaled",
       id: id
     };
   },
 
-  get personaOrder() {
-    let id = this.personas["Lenda"] || process.env.PERSONA_ORDER;
+  get personaAdvice() {
+    let id = this.personas["Lenda"] || process.env.PERSONA_ADVICE;
     return {
       name: "Lenda",
       id: id
     };
   },
 
-  get personaCare() {
-    let id = this.personas["Lenda"] || process.env.PERSONA_CARE;
+  get personaOthers() {
+    let id = this.personas["Lenda"] || process.env.PERSONA_OTHERS;
     return {
       name: "Lenda",
       id: id

@@ -58,7 +58,7 @@ module.exports = class Curation {
           },
           {
             title: i18n.__("curation.sales"),
-            payload: "CARE_SALES"
+            payload: "CARE_INNER"
           }
         ]);
         break;

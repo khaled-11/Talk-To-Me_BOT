@@ -11,7 +11,6 @@
 "use strict";
 
 const Curation = require("./curation"),
-  //Order = require("./order"),
   Response = require("./response"),
   Care = require("./care"),
   Survey = require("./survey"),
@@ -187,8 +186,6 @@ module.exports = class Receive {
     } else if (payload.includes("CARE")) {
       let care = new Care(this.user, this.webhookEvent);
       response = care.handlePayload(payload);
-    } else if (payload.includes("ORDER")) {
-      response = Order.handlePayload(payload);
     } else if (payload.includes("CSAT")) {
       response = Survey.handlePayload(payload);
     } else if (payload.includes("CHAT-PLUGIN")) {
@@ -197,16 +194,16 @@ module.exports = class Receive {
         Response.genText(i18n.__("get_started.guidance")),
         Response.genQuickReply(i18n.__("get_started.help"), [
           {
-            title: i18n.__("care.order"),
-            payload: "CARE_ORDER"
+            title: i18n.__("care.advice"),
+            payload: "CARE_ADVICE"
           },
           {
-            title: i18n.__("care.billing"),
-            payload: "CARE_BILLING"
+            title: i18n.__("care.donations"),
+            payload: "CARE_DONATIONS"
           },
           {
-            title: i18n.__("care.other"),
-            payload: "CARE_OTHER"
+            title: i18n.__("care.others"),
+            payload: "CARE_OTHERS"
           }
         ])
       ];
