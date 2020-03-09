@@ -67,15 +67,15 @@ module.exports = class Curation {
         // Store the user budget preference here
         response = Response.genQuickReply(i18n.__("curation.price"), [
           {
-            title: "~ $20",
+            title: "Happy",
             payload: "CURATION_BUDGET_20_WORK"
           },
           {
-            title: "~ $30",
+            title: "Neutral",
             payload: "CURATION_BUDGET_30_WORK"
           },
           {
-            title: "+ $50",
+            title: "Sad",
             payload: "CURATION_BUDGET_50_WORK"
           }
         ]);
@@ -85,15 +85,15 @@ module.exports = class Curation {
         // Store the user budget preference here
         response = Response.genQuickReply(i18n.__("curation.price"), [
           {
-            title: "~ $20",
+            title: "Happy",
             payload: "CURATION_BUDGET_20_DINNER"
           },
           {
-            title: "~ $30",
+            title: "Neutral",
             payload: "CURATION_BUDGET_30_DINNER"
           },
           {
-            title: "+ $50",
+            title: "Sad",
             payload: "CURATION_BUDGET_50_DINNER"
           }
         ]);
@@ -103,15 +103,15 @@ module.exports = class Curation {
         // Store the user budget preference here
         response = Response.genQuickReply(i18n.__("curation.price"), [
           {
-            title: "~ $20",
+            title: "Happy",
             payload: "CURATION_BUDGET_20_PARTY"
           },
           {
-            title: "~ $30",
+            title: "Neutral",
             payload: "CURATION_BUDGET_30_PARTY"
           },
           {
-            title: "+ $50",
+            title: "Sad",
             payload: "CURATION_BUDGET_50_PARTY"
           }
         ]);
@@ -134,13 +134,13 @@ module.exports = class Curation {
         outfit = `${this.user.gender}-${this.randomOutfit()}`;
 
         response = Response.genGenericTemplate(
-          `${config.appUrl}/styles/${outfit}.jpg`,
+          `${config.appUrl}/story.jpg`,
           i18n.__("curation.title"),
           i18n.__("curation.subtitle"),
           [
             Response.genWebUrlButton(
               i18n.__("curation.shop"),
-              `${config.shopUrl}/products/${outfit}`
+              `${config.shopUrl}/story`
             ),
             Response.genPostbackButton(
               i18n.__("curation.show"),
@@ -162,7 +162,7 @@ module.exports = class Curation {
     let buttons = [
       Response.genWebUrlButton(
         i18n.__("curation.shop"),
-        `${config.shopUrl}/products/${outfit}`
+        `${config.shopUrl}/story`
       ),
       Response.genPostbackButton(
         i18n.__("curation.show"),
@@ -170,14 +170,14 @@ module.exports = class Curation {
       )
     ];
 
-    if (budget === "50") {
+    if (budget === "Neutral") {
       buttons.push(
-        Response.genPostbackButton(i18n.__("curation.sales"), "CARE_SALES")
+        Response.genPostbackButton(i18n.__("curation.inner"), "CARE_INNER")
       );
     }
 
     let response = Response.genGenericTemplate(
-      `${config.appUrl}/styles/${outfit}.jpg`,
+      `${config.appUrl}/story.jpg`,
       i18n.__("curation.title"),
       i18n.__("curation.subtitle"),
       buttons
@@ -187,9 +187,7 @@ module.exports = class Curation {
   }
 
   randomOutfit() {
-    let occasion = ["work", "party", "dinner"];
-    let randomIndex = Math.floor(Math.random() * occasion.length);
 
-    return occasion[randomIndex];
+    return occasion[20];
   }
 };

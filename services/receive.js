@@ -86,6 +86,9 @@ module.exports = class Receive {
       response = Response.genNuxMessage(this.user);
     } else if (message.includes("#")) {
       response = Survey.handlePayload("CSAT_SUGGESTION");
+    } else if (message.includes("*")) {
+      message: this.webhookEvent.message.text
+      response = Survey.handlePayload("CSAT_CHAT");
     } else if (message.includes(i18n.__("care.help").toLowerCase())) {
       let care = new Care(this.user, this.webhookEvent);
       response = care.handlePayload("CARE_HELP");

@@ -61,6 +61,10 @@ module.exports = class Survey {
       case "CSAT_SUGGESTION":
         response = Response.genText(i18n.__("survey.question"));
         break;
+
+      case "CSAT_CHAT":
+        response = Response.genText(i18n.__("survey.chat"));
+        break;
     }
 
     return response;
