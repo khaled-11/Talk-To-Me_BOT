@@ -1,74 +1,65 @@
 {
-  "profile": {
-    "greeting": "{{user_first_name}}，歡迎來到 Original Coast Clothing！點擊「立即開始」，在範例中體驗我們的自動訊息功能。如果您想建立類似的自動訊息，請前往 https://fb.me/get-sample-oc"
-  },
-  "menu": {
-    "support": "客戶支援團隊",
-    "order": "訂單更新",
-    "help": "聯絡代理商",
-    "suggestion": "服裝建議",
-    "shop": "立即購買",
-    "start_over": "重新開始"
-  },
-  "get_started": {
-    "welcome": "{{userFirstName}}，您好！歡迎來到 Original Coast Clothing，找出適合各種場合的穿搭風格！",
-    "guidance": "您隨時都可透過下方選單，瀏覽各種精選商品",
-    "help": "您現在需要我們提供什麼協助呢？"
-  },
-  "leadgen": {
-    "promo": "{{userFirstName}}，您好！尋找合適服裝比以前更簡單方便了。",
-    "title": "五折優惠券",
-    "subtitle": "這是您的優惠券",
-    "apply": "套用優惠折扣",
-    "coupon": "您已在此對話串中加入優惠券，快來購買夏季折扣系列商品吧"
-  },
-  "curation": {
-    "prompt": "您是為自己還是他人挑選服裝呢？",
-    "occasion": "太好了！馬上開始吧。首先，您打算穿去什麼場合呢？",
-    "price": "預算多少？",
-    "me": "為我自己！",
-    "someone": "為他人",
-    "work": "公司",
-    "dinner": "晚宴",
-    "party": "宴會",
-    "sales": "聯絡銷售人員",
-    "shop": "購買這套穿搭組合",
-    "title": "2019 年夏季商品系列",
-    "subtitle": "精選服裝",
-    "show": "其他穿搭"
-  },
-  "order": {
-    "prompt": "我們很樂意為您提供協助。從以下商品挑選",
-    "search": "依訂單編號搜尋",
-    "account": "連結我的帳戶",
-    "dialog": "帳戶連結對話框",
-    "searching": "搜尋您上一筆訂單……",
-    "number": "沒問題！請填寫訂單編號",
-    "status": "您訂購的商品已出貨，預計 3 天內送達。"
-  },
-  "care": {
-    "prompt": "為了將您的問題交由合適團隊處理，請說明您遇到什麼問題？",
-    "order": "訂單查詢",
-    "billing": "帳單問題",
-    "other": "其他",
-    "issue": "{{userFirstName}}，您好！我是 {{agentFirstName}}，負責協助您處理任何與 {{topic}} 相關的問題。",
-    "default": "{{userFirstName}}，您好！我是 {{agentFirstName}}，今天由我負責協助您。需要我提供什麼協助嗎？",
-    "style": "{{userFirstName}}，您好！我是 {{agentFirstName}}，負責解答夏季穿搭風格的相關問題",
-    "end": "以上是操作範例。充分發揮 Messenger 平台的效用，提升您商家的業務成果。請參閱 https://fb.me/get-sample-oc to learn how to build a similar experience",
-    "help": "幫助"
-  },
-  "survey": {
-    "prompt": "您好，我們想快速瞭解您對最近與 {{agentFirstName}} 聯絡的經驗有何感想",
-    "positive": "多謝您的意見",
-    "neutral": "多謝您的意見，若您認為有任何需改進之處，歡迎隨時在回應中使用 #suggestion 主題標籤告訴我們",
-    "negative": "多謝您的意見。對於您遇到的問題，我們深感抱歉，如有任何可改進之處，請告訴我們",
-    "suggestion": "我們團隊已記錄您的建議，作為日後參考之用。如有急需我們立即回覆的其他問題，請回應「協助我」（help）"
-  },
-  "chat_plugin": {
-    "prompt": "感谢您访问我们的商店，请务必查看我们夏季部分的所有风格。"
-  },
-  "fallback": {
-    "any": "很抱歉，我們無法辨識「{{message}}」。",
-    "attachment": "感謝您傳送此附件，我們會將您轉介給負責處理此問題的代理商，或由我們重新檢視問題"
-  }
+	"profile": {
+		"greeting": "Welcome to Talk to Me center {{user_first_name}}! We are so excited to chat with you!"
+	},
+	"menu": {
+		"help": "Talk to someone",
+		"suggestion": "Get positive energy",
+		"start_over": "Start over"
+	},
+	"get_started": {
+		"welcome": "Hi {{userFirstName}}! Do you know that today will go and never comes back? Every {{userGender}} should make the most of it!",
+		"guidance": "One positive though a day can change it to a better and a more productive day!",
+		"help": "You can navigate back to the main menu by typing(hi). What we can do to make your day a better day?"
+	},
+	"care": {
+		"prompt": "To connect you with the right team please let me know what this is about?",
+		"default": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"style": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"end": "I am so happy to assist you today. Together we will make the world a better place!",
+		"help": "Help",
+		"advice": "Need Advice",
+		"donations": "Donations",
+		"others": "Others",
+		"adviceR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"donationsR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"innerR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP."
+	},
+	"survey": {
+		"prompt": "First, how do you feel today?",
+		"positive": "Great, being positive and happy is awesome! Please write #Question followed by your question and we will get back to you shortly",
+		"negative": "Why are you sad? The world is so beautiful and wants you to be happy. Please write #Question followed by your question and we will get back to you shortly",
+		"suggestion": "Your suggestion has been recorded for future review by the team. If this is something we need to get back to you right now just comment \"help\"",
+		"neutral": "Sometimes we might face some challenges, but these make us more stronger in the future. Please write #Question followed by your question and we will get back to you shortly. Please do not forget to add (#) before the question.",
+		"question": "We recieved your question. We will get back to you shortly. You are very important to us! If you want to add more, please add (*) before you write.",
+		"chat": "We recieved your messege. One moment please! Please make sure to add (*) before all your communication with our representatives."
+	},
+	"chat_plugin": {
+		"prompt": "Thanks for visiting our website, be sure to visit us everyday to get some positives."
+	},
+	"fallback": {
+		"any": "Sorry, but I cannot recognize \"{{message}}\".",
+		"attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
+	},
+	"story": {
+		"prompt": "Are you looking for general positive energy stories or something specific?",
+		"general": "General",
+		"specific": "Specific",
+		"category": "Great! Let's get started. First, what is the main category you are looking for?",
+		"work": "Work",
+		"relations": "Relations",
+		"financials": "Financials",
+		"agent": "Talk to an Agent",
+		"mood": "First, How do you feel today?",
+		"read": "Read",
+		"more": "Another Story",
+		"title": "Short Story",
+		"subtitle": "Filled with positives!",
+		"other": "Another Story",
+		"inner": "Talk to an Agent"
+	},
+	"storyO": {
+		"title": "Our Special Story",
+		"subtitle": "Stay Positive!"
+	}
 }

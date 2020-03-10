@@ -5,26 +5,12 @@
 	"menu": {
 		"help": "Talk to someone",
 		"suggestion": "Get positive energy",
-		"start_over": "Start over"	},
+		"start_over": "Start over"
+	},
 	"get_started": {
 		"welcome": "Hi {{userFirstName}}! Do you know that today will go and never comes back? Every {{userGender}} should make the most of it!",
 		"guidance": "One positive though a day can change it to a better and a more productive day!",
-		"help": "What we can do to make your day a better day?"
-	},
-	"curation": {
-		"prompt": "Are you looking for general positive energy stories or something specific?",
-		"occasion": "Great! Let's get started. First, what is the main category you are looking for?",
-		"price": "How do you feel today?",
-		"me": "General",
-		"someone": "Specific",
-		"work": "Work",
-		"dinner": "Relations",
-		"party": "Financials",
-		"sales": "Talk to someone",
-		"shop": "Read more",
-		"title": "Summer collection 2019",
-		"subtitle": "Featured outfit",
-		"show": "Another Story"
+		"help": "You can navigate back to the main menu by typing(hi). What we can do to make your day a better day?"
 	},
 	"care": {
 		"prompt": "To connect you with the right team please let me know what this is about?",
@@ -54,5 +40,26 @@
 	"fallback": {
 		"any": "Sorry, but I cannot recognize \"{{message}}\".",
 		"attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
+	},
+	"story": {
+		"prompt": "Are you looking for general positive energy stories or something specific?",
+		"general": "General",
+		"specific": "Specific",
+		"category": "Great! Let's get started. First, what is the main category you are looking for?",
+		"work": "Work",
+		"relations": "Relations",
+		"financials": "Financials",
+		"agent": "Talk to an Agent",
+		"mood": "First, How do you feel today?",
+		"read": "Read",
+		"more": "Another Story",
+		"title": "Short Story",
+		"subtitle": "Filled with positives!",
+		"other": "Another Story",
+		"inner": "Talk to an Agent"
+	},
+	"storyO": {
+		"title": "Our Special Story",
+		"subtitle": "Stay Positive!"
 	}
 }

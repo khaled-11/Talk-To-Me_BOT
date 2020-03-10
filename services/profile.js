@@ -127,7 +127,7 @@ module.exports = class Profile {
         {
           title: i18n.__("menu.suggestion"),
           type: "postback",
-          payload: "CURATION"
+          payload: "STORY"
         }
       ]
     };

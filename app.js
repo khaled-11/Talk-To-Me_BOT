@@ -54,7 +54,18 @@ app.get("/quotes", function(_req, res) {
 app.get("/story", function(_req, res) {
   res.render("story");
 });
-
+app.get("/work", function(_req, res) {
+  res.render("work");
+});
+app.get("/relations", function(_req, res) {
+  res.render("relations");
+});
+app.get("/financials", function(_req, res) {
+  res.render("financials");
+});
+app.get("/storyO", function(_req, res) {
+  res.render("storyO");
+});
 
 // Adds support for GET requests to our webhook
 app.get("/webhook", (req, res) => {

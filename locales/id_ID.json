@@ -1,74 +1,65 @@
 {
-  "profile": {
-    "greeting": "Selamat datang di Original Coast Clothing {{user_first_name}}! Klik untuk mulai menikmati sampel pengalaman berkirim pesan otomatis kami. Jika Anda ingin membuat pengalaman serupa, kunjungi https://fb.me/get-sample-oc"
-  },
-  "menu": {
-    "support": "Dukungan Pelanggan",
-    "order": "Info terbaru pesanan",
-    "help": "Bicara dengan agen",
-    "suggestion": "Saran pakaian",
-    "shop": "Belanja sekarang",
-    "start_over": "Mulai dari awal"
-  },
-  "get_started": {
-    "welcome": "Halo {{userFirstName}}! Selamat datang di Original Coast Clothing, tempat untuk menemukan gaya berpakaian untuk segala kesempatan.",
-    "guidance": "Kapan saja, gunakan menu di bawah untuk menelusuri fitur",
-    "help": "Apa yang dapat kami bantu hari ini?"
-  },
-  "leadgen": {
-    "promo": "Halo {{userFirstName}}, kini menemukan pakaian yang bagus semakin mudah dan nyaman.",
-    "title": "Kupon sebesar 50%",
-    "subtitle": "Ini kupon Anda",
-    "apply": "Terapkan diskon",
-    "coupon": "Tambahkan kupon Anda ke utas ini untuk melihat koleksi musim panas dengan harga diskon"
-  },
-  "curation": {
-    "prompt": "Apa Anda mencari pakaian untuk Anda atau untuk orang lain?",
-    "occasion": "Bagus! Mari mulai. Pertama-tama, apakah ada acara khusus?",
-    "price": "Berapa banyak uang yang ingin Anda belanjakan?",
-    "me": "Untuk saya!",
-    "someone": "Untuk orang lain",
-    "work": "Bekerja",
-    "dinner": "Makan Malam",
-    "party": "Pesta",
-    "sales": "Bicara dengan penjual",
-    "shop": "Belanja tampilan ini",
-    "title": "Koleksi musim panas 2019",
-    "subtitle": "Pakaian unggulan",
-    "show": "Tampilan lain"
-  },
-  "order": {
-    "prompt": "Kami akan membantu Anda dengan senang hati. Pilih di antara yang berikut",
-    "search": "Telusuri berdasarkan jumlah pesanan",
-    "account": "Tautkan Akun saya",
-    "dialog": "Dialog penautan akun",
-    "searching": "Mencari pesanan terakhir...",
-    "number": "Tentu, tuliskan jumlah pesanan",
-    "status": "Pesanan Anda dalam perjalanan, perkiraan tiba dalam 3 hari."
-  },
-  "care": {
-    "prompt": "Untuk menghubungkan Anda dengan tim yang tepat, bisa jelaskan masalah Anda?",
-    "order": "Pertanyaan Pesanan",
-    "billing": "Masalah Penagihan",
-    "other": "Lainnya",
-    "issue": "Halo {{userFirstName}}, nama saya {{agentFirstName}}, saya akan membantu menjawab pertanyaan Anda tentang {{topic}}.",
-    "default": "Halo {{userFirstName}}, nama saya {{agentFirstName}}, saya akan membantu Anda hari ini. Apa yang dapat saya bantu?",
-    "style": "Halo {{userFirstName}}, nama saya {{agentFirstName}}, saya akan menjawab pertanyaan Anda tentang koleksi musim panas kami",
-    "end": "Ini adalah akhir dari demo ini. Manfaatkan kekuatan platform messenger untuk bisnis Anda. Buka https://fb.me/get-sample-oc untuk mempelajari cara membuat pengalaman yang serupa",
-    "help": "Bantuan"
-  },
-  "survey": {
-    "prompt": "Halo, ingin mendapatkan masukan singkat tentang pengalaman Anda baru-baru ini dengan {{agentFirstName}}",
-    "positive": "Terima kasih atas masukan Anda",
-    "neutral": "Terima kasih atas masukan Anda, jika ada hal lain yang perlu kami tingkatkan, silakan beri komentar dengan tagar #suggestion",
-    "negative": "Terima kasih telah memberi tahu kami. Kami mohon maaf, dan jika ada yang bisa kami lakukan untuk memperbaikinya, beri tahu kami",
-    "suggestion": "Saran Anda telah dicatat untuk peninjauan mendatang oleh tim kami. Jika masalah Anda memerlukan perhatian kami sekarang juga, tuliskan saja “tolong” dalam komentar"
-  },
-  "chat_plugin": {
-    "prompt": "Terima kasih telah mengunjungi toko kami, pastikan untuk memeriksa semua gaya hebat yang kami miliki di bagian musim panas."
-  },
-  "fallback": {
-    "any": "Maaf, kami tidak mengenali \"{{message}}\".",
-    "attachment": "Terima kasih telah mengirimkan lampiran ini, kami dapat menghubungkan Anda dengan agen yang akan meninjaunya, atau kita bisa mulai lagi dari awal"
-  }
+	"profile": {
+		"greeting": "Welcome to Talk to Me center {{user_first_name}}! We are so excited to chat with you!"
+	},
+	"menu": {
+		"help": "Talk to someone",
+		"suggestion": "Get positive energy",
+		"start_over": "Start over"
+	},
+	"get_started": {
+		"welcome": "Hi {{userFirstName}}! Do you know that today will go and never comes back? Every {{userGender}} should make the most of it!",
+		"guidance": "One positive though a day can change it to a better and a more productive day!",
+		"help": "You can navigate back to the main menu by typing(hi). What we can do to make your day a better day?"
+	},
+	"care": {
+		"prompt": "To connect you with the right team please let me know what this is about?",
+		"default": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"style": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"end": "I am so happy to assist you today. Together we will make the world a better place!",
+		"help": "Help",
+		"advice": "Need Advice",
+		"donations": "Donations",
+		"others": "Others",
+		"adviceR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"donationsR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"innerR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP."
+	},
+	"survey": {
+		"prompt": "First, how do you feel today?",
+		"positive": "Great, being positive and happy is awesome! Please write #Question followed by your question and we will get back to you shortly",
+		"negative": "Why are you sad? The world is so beautiful and wants you to be happy. Please write #Question followed by your question and we will get back to you shortly",
+		"suggestion": "Your suggestion has been recorded for future review by the team. If this is something we need to get back to you right now just comment \"help\"",
+		"neutral": "Sometimes we might face some challenges, but these make us more stronger in the future. Please write #Question followed by your question and we will get back to you shortly. Please do not forget to add (#) before the question.",
+		"question": "We recieved your question. We will get back to you shortly. You are very important to us! If you want to add more, please add (*) before you write.",
+		"chat": "We recieved your messege. One moment please! Please make sure to add (*) before all your communication with our representatives."
+	},
+	"chat_plugin": {
+		"prompt": "Thanks for visiting our website, be sure to visit us everyday to get some positives."
+	},
+	"fallback": {
+		"any": "Sorry, but I cannot recognize \"{{message}}\".",
+		"attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
+	},
+	"story": {
+		"prompt": "Are you looking for general positive energy stories or something specific?",
+		"general": "General",
+		"specific": "Specific",
+		"category": "Great! Let's get started. First, what is the main category you are looking for?",
+		"work": "Work",
+		"relations": "Relations",
+		"financials": "Financials",
+		"agent": "Talk to an Agent",
+		"mood": "First, How do you feel today?",
+		"read": "Read",
+		"more": "Another Story",
+		"title": "Short Story",
+		"subtitle": "Filled with positives!",
+		"other": "Another Story",
+		"inner": "Talk to an Agent"
+	},
+	"storyO": {
+		"title": "Our Special Story",
+		"subtitle": "Stay Positive!"
+	}
 }

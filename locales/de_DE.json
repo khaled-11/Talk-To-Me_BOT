@@ -4,49 +4,62 @@
 	},
 	"menu": {
 		"help": "Talk to someone",
-		"suggestion": "Get positive energy"
+		"suggestion": "Get positive energy",
+		"start_over": "Start over"
 	},
 	"get_started": {
 		"welcome": "Hi {{userFirstName}}! Do you know that today will go and never comes back? Every {{userGender}} should make the most of it!",
 		"guidance": "One positive though a day can change it to a better and a more productive day!",
-		"help": "What we can do to make your day a better day?"
-	},
-	"curation": {
-		"prompt": "Are you looking for an outfit for yourself or someone else?",
-		"occasion": "Great! Let's get started. First, is there an occasion in mind?",
-		"price": "How much are you looking to spend?",
-		"me": "For me!",
-		"someone": "Someone else",
-		"work": "Work",
-		"dinner": "Dinner",
-		"party": "Party",
-		"sales": "Talk to sales",
-		"shop": "Shop this look",
-		"title": "Summer collection 2019",
-		"subtitle": "Featured outfit",
-		"show": "Another look"
+		"help": "You can navigate back to the main menu by typing(hi). What we can do to make your day a better day?"
 	},
 	"care": {
 		"prompt": "To connect you with the right team please let me know what this is about?",
 		"default": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"style": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
 		"end": "I am so happy to assist you today. Together we will make the world a better place!",
+		"help": "Help",
 		"advice": "Need Advice",
 		"donations": "Donations",
 		"others": "Others",
-		"innerR": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
-		"donationsR": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
-		"adviceR": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP."
+		"adviceR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"donationsR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"innerR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP."
 	},
 	"survey": {
 		"prompt": "First, how do you feel today?",
 		"positive": "Great, being positive and happy is awesome! Please write #Question followed by your question and we will get back to you shortly",
 		"negative": "Why are you sad? The world is so beautiful and wants you to be happy. Please write #Question followed by your question and we will get back to you shortly",
 		"suggestion": "Your suggestion has been recorded for future review by the team. If this is something we need to get back to you right now just comment \"help\"",
-		"neutral": "Sometimes we might face some challenges, but these make us more stronger in the future. Please write #Question followed by your question and we will get back to you shortly",
-		"question": "We recieved your question. We will get back to you shortly. You are very important to us!"
+		"neutral": "Sometimes we might face some challenges, but these make us more stronger in the future. Please write #Question followed by your question and we will get back to you shortly. Please do not forget to add (#) before the question.",
+		"question": "We recieved your question. We will get back to you shortly. You are very important to us! If you want to add more, please add (*) before you write.",
+		"chat": "We recieved your messege. One moment please! Please make sure to add (*) before all your communication with our representatives."
+	},
+	"chat_plugin": {
+		"prompt": "Thanks for visiting our website, be sure to visit us everyday to get some positives."
 	},
 	"fallback": {
 		"any": "Sorry, but I cannot recognize \"{{message}}\".",
 		"attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
+	},
+	"story": {
+		"prompt": "Are you looking for general positive energy stories or something specific?",
+		"general": "General",
+		"specific": "Specific",
+		"category": "Great! Let's get started. First, what is the main category you are looking for?",
+		"work": "Work",
+		"relations": "Relations",
+		"financials": "Financials",
+		"agent": "Talk to an Agent",
+		"mood": "First, How do you feel today?",
+		"read": "Read",
+		"more": "Another Story",
+		"title": "Short Story",
+		"subtitle": "Filled with positives!",
+		"other": "Another Story",
+		"inner": "Talk to an Agent"
+	},
+	"storyO": {
+		"title": "Our Special Story",
+		"subtitle": "Stay Positive!"
 	}
 }

@@ -10,7 +10,7 @@
 
 "use strict";
 
-const Curation = require("./curation"),
+const Story = require("./story"),
   Response = require("./response"),
   Care = require("./care"),
   Survey = require("./survey"),
@@ -103,7 +103,7 @@ module.exports = class Receive {
         Response.genQuickReply(i18n.__("get_started.help"), [
           {
             title: i18n.__("menu.suggestion"),
-            payload: "CURATION"
+            payload: "STORY"
           },
           {
             title: i18n.__("menu.help"),
@@ -183,9 +183,9 @@ module.exports = class Receive {
       payload === "GITHUB"
     ) {
       response = Response.genNuxMessage(this.user);
-    } else if (payload.includes("CURATION") || payload.includes("COUPON")) {
-      let curation = new Curation(this.user, this.webhookEvent);
-      response = curation.handlePayload(payload);
+    } else if (payload.includes("STORY") || payload.includes("COUPON")) {
+      let story = new Story(this.user, this.webhookEvent);
+      response = story.handlePayload(payload);
     } else if (payload.includes("CARE")) {
       let care = new Care(this.user, this.webhookEvent);
       response = care.handlePayload(payload);
@@ -227,7 +227,7 @@ module.exports = class Receive {
     let response = Response.genQuickReply(welcomeMessage, [
       {
         title: i18n.__("menu.suggestion"),
-        payload: "CURATION"
+        payload: "STORY"
       },
       {
         title: i18n.__("menu.help"),

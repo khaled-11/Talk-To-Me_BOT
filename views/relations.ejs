@@ -1,0 +1,275 @@
+
+<head>
+
+    <title>Talk To Me | Story</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@import url("https://fonts.googleapis.com/css?family=Courgette|Roboto");
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+blockquote {
+  position: relative;
+  padding-left: 1.5rem;
+  font-family: "Courgette", serif;
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: -0.05rem;
+}
+blockquote:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: #A9DFBF;
+  border-radius: 60px;
+}
+
+figure {
+  display: -webkit-box;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -40;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.hero:nth-child(1) figure {
+background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/photo-1523712999610-f77fbcfc3843.jpg");  
+}
+.hero:nth-child(2) figure {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/photo-1506744038136-46273834b3fb.jpg");
+}
+.hero:nth-child(3) figure {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/photo-1506260408121-e353d10b87c7.jpg");
+}
+.hero:nth-child(4) figure {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/photo-1501785888041-af3ef285b470.jpg");
+}
+
+.hero-inner {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, auto, auto, 0);
+}
+@supports (-webkit-overflow-scrolling: touch) {
+  .hero-inner {
+    clip: unset;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+.hero__title {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 1rem;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: "Courgette", serif;
+  font-size: 8vw;
+  letter-spacing: -0.125rem;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .hero__title {
+    font-size: 6rem;
+  }
+}
+
+.content {
+  position: relative;
+  margin: 0 auto 8rem;
+  padding: 6rem;
+}
+.content:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  z-index: 99;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.content__inner {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.content__inner > * + * {
+  margin-top: 0rem;
+}
+.content__inner > blockquote {
+  margin: 3rem 0;
+}
+
+.content__title {
+  font-family: "Courgette", serif;
+  font-size: 3rem;
+  line-height: 1.25;
+  letter-spacing: -0.125rem;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .content__title {
+    font-size: 4rem;
+  }
+}
+
+.content__author {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+  width: 100%;
+  font-family: "Courgette", serif;
+  font-size: 1.5rem;
+  letter-spacing: -0.125rem;
+  text-align: center;
+}
+.content__author:before, .content__author:after {
+  content: '';
+  -webkit-box-flex: 1;
+          flex: 1;
+  height: 2px;
+  background-color: #A9DFBF;
+}
+.content__author:before {
+  margin-right: 1rem;
+}
+.content__author:after {
+  margin-left: 1rem;
+}
+
+
+</style>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+</head>
+
+<body>
+
+
+
+
+<section class="hero">
+  <div class="hero-inner" id="section-0">
+    <figure></figure>
+    <h2 class="hero__title">Explore our world</h2>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-inner" id="section-1">
+    <figure></figure>
+    <h2 class="hero__title">View all its beauty</h2>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-inner" id="section-2">
+    <figure></figure>
+    <h2 class="hero__title">It is beautiful because of you!</h2>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-inner" id="section-3">
+    <figure></figure>
+    <h2 class="hero__title">The world needs you!</h2>
+  </div>
+</section>
+<section class="content">
+  <article class="content__inner">
+    <h1 class="content__title">THINK SUCCES AND YOU WILL HAVE SUCCESS!</h1>
+    <h3 class="content__author">By INEKE VAN LINT @ Enthousiasme</h3>
+    <blockquote>THOSE WHO FAIL, FOLLOW THE LAWS OF FAILURE.THOSE WHO SUCCEED, FOLLOW THE LAWS OF SUCCESS.</blockquote>
+    <p>It is impossible to reach success with a scheme of failure thoughts in your mind.   It is impossible to have good health with a scheme of illness thoughts.</p>
+    <pYour behavior is directed by your thoughts. Thoughts of failure, disease, loneliness and fear push you into a behavior which leads you directly to fail, become ill, feel lonely and fearful!</p>
+    <p>These principles govern all creation, also the creation of your life. The experiences of your life start in your head. And it is exactly there where your power lies : in your thoughts!</p>
+    <p>The universe will give you health, if you learn to think in terms of health, not illness. You will have success if you think in terms of success, not failure. Everything you think about repeatedly will manifest one day or another. So why not think of what you want, instead of what you do not want? >Either way, you will get what you asked for! So ask for good things by thinking of good things.</p>
+    <p>If you have an appointment with the dentist and you are afraid, do this : picture yourself in the dentist chair, visualize a great white light enveloping you, and say : </p>
+<blockquote>Only healing hands touch me.</blockquote>
+<p>Picture yourself there in the future having a good relaxing time, totally safe in the hands of someone who helps you to heal from a pain at your teeth.</p>
+<p>If you have an appointment for a job interview, picture yourself there in the room. What clothes do you wear? How is your hair? What perfume did you choose that morning? Visualize yourself filled with confidence. You talk fluently, you are sure of yourself and your talents are obvious.</p>
+<p>You have a visit from your parents? You are exhausted only by the idea? Change your idea! Picture yourself inviting your parents, opening the door, being calm and open-minded, spending a wonderful time with them. See yourself talking with your parents, they are listening, you listen to them, you stay centered on yourself, you are able to stay yourself in their presence. You feel how you love them and you feel their love for you.</p>
+<p><b>Try this and see what happens! It is all in the mind!</b></p>
+<p>It is in our thoughts we create our life. Even if you are not conscious about this process, you use it anyway all the time. Every moment you have an idea in your head about what is going to happen. Or you think about something from your past, which you project on your future. You always have ideas in your head. Now that you know your thoughts create your life, which thoughts do you choose? Those who you want to see manifested? Take care of your thoughts, and the rest will follow!</p>
+  <p><b>Think success, act like someone who is successful and success will come, without any doubt!</b></p>
+</article>
+</section>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <a href="/#donation" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Donate</a>
+    <a href="/#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="/story" class="w3-bar-item w3-button">Story</a>
+        <a href="/quotes" class="w3-bar-item w3-button">Quotes</a>
+        <a href="/hearts" class="w3-bar-item w3-button">Gift</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="/#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="/#donation" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Donate</a>
+  <a href="/#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Conatct</a>
+  <a href="/story" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Story</a>
+  <a href="/quotes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Quotes</a>
+  <a href="/hearts" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gift</a>
+</div>
+
+</body>
