@@ -10,12 +10,12 @@
 	"get_started": {
 		"welcome": "Hi {{userFirstName}}! Do you know that today will go and never comes back? Every {{userGender}} should make the most of it!",
 		"guidance": "One positive though a day can change it to a better and a more productive day!",
-		"help": "You can navigate back to the main menu by typing(hi). What we can do to make your day a better day?"
+		"help": "You can navigate back to the main menu by typing (hi). What we can do to make your day a better day?"
 	},
 	"care": {
 		"prompt": "To connect you with the right team please let me know what this is about?",
-		"default": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
-		"style": "Hi Khaled, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"default": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
+		"style": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
 		"end": "I am so happy to assist you today. Together we will make the world a better place!",
 		"help": "Help",
 		"advice": "Need Advice",
@@ -33,9 +33,6 @@
 		"neutral": "Sometimes we might face some challenges, but these make us more stronger in the future. Please write #Question followed by your question and we will get back to you shortly. Please do not forget to add (#) before the question.",
 		"question": "We recieved your question. We will get back to you shortly. You are very important to us! If you want to add more, please add (*) before you write.",
 		"chat": "We recieved your messege. One moment please! Please make sure to add (*) before all your communication with our representatives."
-	},
-	"chat_plugin": {
-		"prompt": "Thanks for visiting our website, be sure to visit us everyday to get some positives."
 	},
 	"fallback": {
 		"any": "Sorry, but I cannot recognize \"{{message}}\".",
@@ -55,7 +52,7 @@
 		"more": "Another Story",
 		"title": "Short Story",
 		"subtitle": "Filled with positives!",
-		"other": "Another Story",
+		"other": "More Stories",
 		"inner": "Talk to an Agent"
 	},
 	"storyO": {
