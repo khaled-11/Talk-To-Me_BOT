@@ -17,7 +17,7 @@ module.exports = class User {
     this.lastName = "";
     this.locale = "";
     this.timezone = "";
-    this.gender = "neutral";
+    this.gender = "person";
   }
   setProfile(profile) {
     this.firstName = profile.firstName;

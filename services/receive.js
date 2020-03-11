@@ -40,13 +40,11 @@ module.exports = class Receive {
           responses = this.handleAttachmentMessage();
         } else if (message.text) {
           responses = this.handleTextMessage();
-        }
-      } else if (event.postback) {
+      }} else if (event.postback) {
         responses = this.handlePostback();
       } else if (event.referral) {
         responses = this.handleReferral();
-      }
-    } catch (error) {
+    }} catch (error) {
       console.error(error);
       responses = {
         text: `An error has occured: '${error}'. We have been notified and \
@@ -151,12 +149,10 @@ module.exports = class Receive {
     let postback = this.webhookEvent.postback;
     // Check for the special Get Starded with referral
     let payload;
-    if (postback.referral && postback.referral.type == "OPEN_THREAD") {
-      payload = postback.referral.ref;
-    } else {
+    
       // Get the payload of the postback
       payload = postback.payload;
-    }
+    
     return this.handlePayload(payload.toUpperCase());
   }
 
@@ -178,9 +174,7 @@ module.exports = class Receive {
 
     // Set the response based on the payload
     if (
-      payload === "GET_STARTED" ||
-      payload === "DEVDOCS" ||
-      payload === "GITHUB"
+      payload === "GET_STARTED"
     ) {
       response = Response.genNuxMessage(this.user);
     } else if (payload.includes("STORY") || payload.includes("COUPON")) {

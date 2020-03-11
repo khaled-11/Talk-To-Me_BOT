@@ -148,7 +148,7 @@ module.exports = class Story {
             ),
             Response.genPostbackButton(
               i18n.__("story.other"),
-              "STORY_OTHER"
+              "STORY_GENERAL_GENERAL_STORY"
             )
           ]
         );
