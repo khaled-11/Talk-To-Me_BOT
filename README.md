@@ -4,6 +4,8 @@ Talk to Me Center is an entertainment website and chatbot proto-type that is des
 
 
 [Access the Original Coast Clothing Messenger experience](https://m.me/OriginalCoastClothing?ref=GITHUB)
+See the [Developer Documentations on original coast clothing experience](https://developers.facebook.com/docs/messenger-platform/getting-started/sample-apps/original-coast-clothing).
+
 
 [Access the Talk to Me center Messenger experience](https://m.me/102761464663369)
 
@@ -13,7 +15,8 @@ Talk to Me Center is an entertainment website and chatbot proto-type that is des
 
 ![Messenger Experience](public/experience.png)
 
-See the [Developer Documentations on this experience](https://developers.facebook.com/docs/messenger-platform/getting-started/sample-apps/original-coast-clothing).
+
+# Begin original coast clothing Guides:
 
 # Setting up your Messenger App
 
