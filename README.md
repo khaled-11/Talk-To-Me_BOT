@@ -2,11 +2,13 @@
 
 Talk to Me Center is an entertainment website and chatbot proto-type that is designed to spread positive energy and provide help to others. We forked the chatbot application from a Facebook sample (Original Coast Clothing). Use this Demo as well as the other samples from Facebook to get inspired and cutomized your own experience. Facebook provides open sources and helpful guides like below to  develop and deploy your unique application. We deployed our Application to a shred linux hosting, but there are many other solutions out there.
 
+
+[Access the Original Coast Clothing Messenger experience](https://m.me/OriginalCoastClothing?ref=GITHUB)
+
 [Access the Talk to Me center Messenger experience](https://m.me/102761464663369)
 
 [Access the Talk to Me center Customer chat web plugin experience](https://talktomecenter.com)
 
-[Access the Original Coast Clothing Messenger experience](https://m.me/OriginalCoastClothing?ref=GITHUB)
 
 
 ![Messenger Experience](public/experience.png)
