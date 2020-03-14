@@ -1,8 +1,10 @@
-# Original Coast Clothing Messenger Bot
+﻿# Talk To Me Center Messenger Bot
 
-Original Coast Clothing (OC) is a fictional clothing brand created to showcase key features of the Messenger Platform. OC leverages key features to deliver a great customer experience. Using this demo as inspiration, you can create a delightful messaging experience that leverages both automation and live customer support. We are also providing the open source code of the app and a guide to deploy the experience on your local environment or remote server.
+Talk to Me Center is not a business website and chatbot. We forked the chatbot from a Facebook sample (Original Coast Clothing). Use this Demo as well as the other samples from Facebook to get inspired and cutomized your own experience. Facebook provides open sources and helpful guides like below to build and develop and deploy your unique application. We deployed our Application to a shred linux hosting, but there are many other solutions out there.
 
-[Access the Messenger experience](https://m.me/OriginalCoastClothing?ref=GITHUB)
+[Access the Talk to Me center Messenger experience](https://m.me/102761464663369)
+[Access the Talk to Me center Customer chat web plugin experience](https://talktomecenter.com)
+[Access the Original Coast Clothing Messenger experience](https://m.me/OriginalCoastClothing?ref=GITHUB)
 
 ![Messenger Experience](public/experience.png)
 
