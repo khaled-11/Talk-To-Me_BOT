@@ -1,62 +1,62 @@
 {
-	"profile": {
-		"greeting": "Welcome to Talk to Me center {{user_first_name}}! We are so excited to chat with you!"
-	},
-	"menu": {
-		"help": "Talk to someone",
-		"suggestion": "Get positive energy",
-		"start_over": "Start over"
-	},
-	"get_started": {
-		"welcome": "Hi {{userFirstName}}! Do you know that today will go and never comes back? Every {{userGender}} should make the most of it!",
-		"guidance": "One positive though a day can change it to a better and a more productive day!",
-		"help": "You can navigate back to the main menu by typing (hi). What we can do to make your day a better day?"
-	},
 	"care": {
-		"prompt": "To connect you with the right team please let me know what this is about?",
-		"default": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
-		"style": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
-		"end": "I am so happy to assist you today. Together we will make the world a better place!",
-		"help": "Help",
-		"advice": "Need Advice",
-		"donations": "Donations",
-		"others": "Others",
-		"adviceR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
-		"donationsR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP.",
-		"innerR": "Hi {{userFirstName}}, we are here for you all the time. Please let us know how we can help you and we will get back to you ASAP."
-	},
-	"survey": {
-		"prompt": "First, how do you feel today?",
-		"positive": "Great, being positive and happy is awesome! Please write #Question followed by your question and we will get back to you shortly",
-		"negative": "Why are you sad? The world is so beautiful and wants you to be happy. Please write #Question followed by your question and we will get back to you shortly",
-		"suggestion": "Your suggestion has been recorded for future review by the team. If this is something we need to get back to you right now just comment \"help\"",
-		"neutral": "Sometimes we might face some challenges, but these make us more stronger in the future. Please write #Question followed by your question and we will get back to you shortly. Please do not forget to add (#) before the question.",
-		"question": "We recieved your question. We will get back to you shortly. You are very important to us! If you want to add more, please add (*) before you write.",
-		"chat": "We recieved your messege. One moment please! Please make sure to add (*) before all your communication with our representatives."
+		"advice": "アドバイスが必要",
+		"adviceR": "こんにちは {{userFirstName}}、私たちはいつもあなたのためにここにいます。私たちはあなたを助けることができる方法を教えてください、私たちはできるだけ早くあなたに戻ります。",
+		"default": "こんにちは {{userFirstName}}、私たちはいつもあなたのためにここにいます。私たちはあなたを助けることができる方法を教えてください、私たちはできるだけ早くあなたに戻ります。",
+		"donations": "寄付",
+		"donationsR": "こんにちは {{userFirstName}}、私たちはいつもあなたのためにここにいます。私たちはあなたを助けることができる方法を教えてください、私たちはできるだけ早くあなたに戻ります。",
+		"end": "本日は喜んでお手伝いさせていただきます。一緒に私たちは世界をより良い場所にします！",
+		"help": "助けて",
+		"innerR": "こんにちは {{userFirstName}}、私たちはいつもあなたのためにここにいます。私たちはあなたを助けることができる方法を教えてください、私たちはできるだけ早くあなたに戻ります。",
+		"others": "その他",
+		"prompt": "あなたを適切なチームにつなげるために、これが何であるかを教えてください。",
+		"style": "こんにちは {{userFirstName}}、私たちはいつもあなたのためにここにいます。私たちはあなたを助けることができる方法を教えてください、私たちはできるだけ早くあなたに戻ります。"
 	},
 	"fallback": {
-		"any": "Sorry, but I cannot recognize \"{{message}}\".",
-		"attachment": "Thanks for sending this attachment, we can connect you to an agent to review it or we can start over"
+		"any": "申し訳ありませんが、「{{message}}」を認識できません。",
+		"attachment": "この添付ファイルを送信していただき、ありがとうございます。エージェントに連絡して確認するか、最初からやり直すことができます"
+	},
+	"get_started": {
+		"guidance": "ある日はポジティブであるが、一日をより良く、より生産的な一日に変えることができる！",
+		"help": "（hi）を入力して、メインメニューに戻ることができます。あなたの一日をより良い一日にするために私たちにできることは？",
+		"welcome": "こんにちは {{userFirstName}}！あなたは今日が行くと決して戻ってこないことを知っていますか？ {{userGender}} ごとに最大限に活用する必要があります。"
+	},
+	"menu": {
+		"help": "誰かと話す",
+		"start_over": "やり直す",
+		"suggestion": "ポジティブなエネルギーを得る"
+	},
+	"profile": {
+		"greeting": "Talk to Meセンター{{user_first_name}}へようこそ。 私たちはあなたとチャットできることをとても楽しみにしています！"
 	},
 	"story": {
-		"prompt": "Are you looking for general positive energy stories or something specific?",
-		"general": "General",
-		"specific": "Specific",
-		"category": "Great! Let's get started. First, what is the main category you are looking for?",
-		"work": "Work",
-		"relations": "Relations",
-		"financials": "Financials",
-		"agent": "Talk to an Agent",
-		"mood": "First, How do you feel today?",
-		"read": "Read",
-		"more": "Another Story",
-		"title": "Short Story",
-		"subtitle": "Filled with positives!",
-		"other": "More Stories",
-		"inner": "Talk to an Agent"
+		"agent": "エージェントと話す",
+		"category": "すごい！ 始めましょう。 まず、あなたが探している主なカテゴリーは何ですか？",
+		"financials": "財務",
+		"general": "全般",
+		"inner": "エージェントと話す",
+		"mood": "まず、今日の気分はどうですか？",
+		"more": "別の物語",
+		"other": "その他のストーリー",
+		"prompt": "一般的なポジティブなエネルギーの物語や何か特別なものをお探しですか？",
+		"read": "読んだ",
+		"relations": "関係",
+		"specific": "明確な",
+		"subtitle": "ポジティブでいっぱい！",
+		"title": "ショートストーリー",
+		"work": "作業"
 	},
 	"storyO": {
-		"title": "Our Special Story",
-		"subtitle": "Stay Positive!"
+		"subtitle": "ポジティブに！",
+		"title": "私たちの特別な物語"
+	},
+	"survey": {
+		"chat": "メッセージを受け取りました。 ちょっと待ってください！ 担当者とのすべての連絡の前に、必ず（*）を追加してください。",
+		"negative": "どうして悲しいの？ 世界はとても美しく、あなたが幸せになることを望んでいます。 #Questionの後に質問を書いてください。すぐに返信します",
+		"neutral": "時々、私たちはいくつかの課題に直面するかもしれませんが、これらは将来、私たちをより強くします。 #Questionの後に質問を書いてください。すぐに返信します。 質問の前に（＃）を追加することを忘れないでください。",
+		"positive": "素晴らしい、ポジティブで幸せであることは素晴らしい！ #Questionの後に質問を書いてください。すぐに返信します",
+		"prompt": "まず、今日はどう思いますか？",
+		"question": "質問を受け取りました。 間もなくご連絡いたします。 あなたは私たちにとって非常に重要です！ さらに追加する場合は、書き込む前に（*）を追加してください。",
+		"suggestion": "あなたの提案は、チームによる将来のレビューのために記録されています。 これが何かの場合は、「ヘルプ」とコメントしてください。"
 	}
 }
