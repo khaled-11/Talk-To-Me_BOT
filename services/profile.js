@@ -116,6 +116,8 @@ module.exports = class Profile {
       composer_input_disabled: false,
       call_to_actions: [
         {
+          title: i18n.__("menu.support"),
+          type: "nested",
           call_to_actions: [
             {
               title: i18n.__("menu.help"),
